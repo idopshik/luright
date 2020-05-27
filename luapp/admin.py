@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from luapp.models import Mitglieder
+
+admin.site.register(Mitglieder)
+
+
